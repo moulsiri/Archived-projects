@@ -34,6 +34,7 @@ title{
     border-radius:0%;
     height:200px;
     transition:1s;
+    border:1px solid white;
 
 }
 
@@ -59,6 +60,50 @@ display:flex;
     background-color: white;
     color:black;
     border:1px solid black;
+    transition:1s;
 
 }
+/* Home Section  */
+#home{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ flex-direction:column;
+ height:300px;
+}
+#home::Before{
+    content: "";
+        background-image : url(img/bg.jpg) ;
+        background-repeat:no-repeat;
+       
+        background-size:cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: .9;
+}
+#home h1{
+    color:white;
 
+}
+#home p{
+    color:white;
+    font-weight: 100;
+}
+
+
+/* Utilities */
+.primary{
+    text-align: center;
+    font-size:3.8rem;
+}
+.paragraph{
+    font-size:2rem;
+    
+}
+.para02{
+    font-size:1rem;
+}

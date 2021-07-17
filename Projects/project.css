@@ -1,0 +1,9 @@
+*{
+    padding:None;
+    margin:0;
+    
+}
+#work .items{
+    display:flex;
+    flex-direction: column;
+}
