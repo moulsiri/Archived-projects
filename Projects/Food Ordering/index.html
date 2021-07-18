@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testy Food and stuffs | ChatpataKhana.com</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
         </style>
@@ -18,10 +19,10 @@
             <img src="logo.png" alt="Ops! problem *_* ">
         </div>
         <ul>
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#">Services</a></li>
-            <li class="item"><a href="#">Contact us</a></li>
-            <li class="item"><a href="#">About us</a></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+            <li class="item"><a href="#clients">Our Clients</a></li>
 
             
         </ul>
@@ -41,8 +42,8 @@
             <img src="img3.jpg" alt="">
             <h2 class="h-secondary center">Food Ordering</h2>
             <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae, ex adipisci dolores nobis est. Ad,
-                 dicta magnam laborum atque exercitationem dolore libero rerum reprehenderit velit debitis quisquam, vitae molestiae.</p>
-
+                 dicta magnam laborum atque exercitationem dolore libero rerum reprehenderit velit debitis quisquam, vitae molestiae.
+                </p>
         </div>
         <div class="box">
             <img src="img2.jpg" alt="">
@@ -61,24 +62,54 @@
     </div>
 
 </section>
-<section class="client-section">
-    <h1 class="h-primary center">Our Clients</h1>
-    <div id="clients">
-        <div class="client-item">
-            <img src="logo3.png" alt="">
+<section id="common-background">
+    <section class="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="logo3.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="logo1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="logo2.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="logo4.png" alt="">
+            </div>
+            
         </div>
-        <div class="client-item">
-            <img src="logo1.png" alt="">
+    </section>
+    <section id="contact">
+        <h1 class="h-primary">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
         </div>
-        <div class="client-item">
-            <img src="logo2.png" alt="">
-        </div>
-        <div class="client-item">
-            <img src="logo4.png" alt="">
-        </div>
-        
-    </div>
+    </section>
 </section>
-   
+
+   <footer>
+       <div class="center">
+           Copyright &copy; www.chatpatakhana.com All right reserved.
+       </div>
+   </footer>
 </body>
 </html>
