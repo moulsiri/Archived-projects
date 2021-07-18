@@ -13,6 +13,9 @@
     font-size:0.8rem;
 
 }
+#navbar .logo img{
+    margin-top:5px;
+}
 /* home */
 
 .primary{
@@ -25,10 +28,13 @@
     
     
 }
+.para02{
+    font-size:0.8rem;
+}
 /* Projects */
-#projects .project a{
+.common #projects .project a{
     
-    font-size: 1rem;
+    font-size: 1.5rem;
 
 
 }
