@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="Mobile.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -13,16 +14,32 @@
             <img src='img/dp.jpg' alt='my pic'>
         </div>
         <ul>
-            <li class="nav-items"> <a href="#">Home</a> </li>
+            <li class="nav-items"> <a href="#home">Home</a> </li>
             <li class="nav-items"><a href="#">About Me</a></li>
-            <li class="nav-items"><a href="Projects/project.html">My projects</a></li>
+            <li class="nav-items"><a href="#projects">My projects</a></li>
         </ul>
     </nav>
-    <section id="home">
-        <h1 class="primary">Welcome</h1>
+    <section class="common">
+        <section id="home">
+            <h1 class="primary">Welcome</h1>
+        
+            <p class="paragraph">This is a wonderful time to be alive </p>
+            <p class="para02">( Hey! pal see my all projects at the project tab )</p>
+        </section>
     
-        <p class="paragraph">This is a wonderful time to be alive </p>
-        <p class="para02">( Hey! pal see my all projects at the project tab )</p>
+        <section id="projects">
+            <h1 class="primary">My Projects</h1>
+            <div class="project">
+                <a href="Projects/article.html">Aritcle</a>
+            </div>
+            <div class="project">
+                <a href="Projects/Image Gallery.html">Image Gallery</a>
+            </div>
+            <div class="project">
+                <a href="Projects/Food Ordering/index.html">ChatpataKhana.com</a>
+            </div>
+        </section>
     </section>
+   
 </body>
 </html>

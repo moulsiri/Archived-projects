@@ -2,12 +2,18 @@
     padding:None;
     margin:0;
 }
+html{
+    scroll-behavior: smooth;
+}
 title{
     display:None;
 }
 /* Navbar section  */
 #navbar{
     display:flex;
+    position:relative;
+    width: 100%;
+    height:100px;
    
 }
 
@@ -17,10 +23,10 @@ title{
         position: absolute;
         top: 0px;
         left: 0px;
-        height: 31%;
+        height: 100%;
         width: 100%;
         z-index: -1;
-        opacity: .7;
+        opacity: .4;
     }
 
 
@@ -28,7 +34,7 @@ title{
 .logo img{
     height:100px;
     border-radius:50%;
-    margin: 5% 2%;
+    margin: 20px 17px
 }
 #navbar .logo img:hover{
     border-radius:0%;
@@ -44,8 +50,8 @@ list-style: none;
 display:flex;
 }
 #navbar ul li{
-    margin: 2% 0%;
-    padding:35px;
+    margin: 32px 1px;
+    padding:13px;
 
 }
 .nav-items a{
@@ -69,22 +75,11 @@ display:flex;
  align-items:center;
  justify-content:center;
  flex-direction:column;
- height:300px;
+ height:415px;
+
 }
-#home::Before{
-    content: "";
-        background-image : url(img/bg.jpg) ;
-        background-repeat:no-repeat;
-       
-        background-size:cover;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        opacity: .9;
-}
+
+
 #home h1{
     color:white;
 
@@ -106,4 +101,44 @@ display:flex;
 }
 .para02{
     font-size:1rem;
+}
+/* Projects-section  */
+
+#projects{
+    margin:61px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#projects h1{
+    color:white;
+   
+
+}
+#projects .project a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top:5px;
+
+
+}
+/* common  */
+.common{
+    height:600px;
+}
+.common::Before{
+    content: "";
+        background-image : url(img/bg.jpg) ;
+        background-repeat:no-repeat;
+       
+        background-size:cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 160%;
+        width: 100%;
+        z-index: -1;
+        opacity: .9;
 }

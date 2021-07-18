@@ -1,0 +1,34 @@
+/* Navbar section  */
+#navbar{
+    flex-direction:column;
+    justify-content: center;
+   align-items: center;
+}
+#navbar ul li{
+    margin: 1px 1px;
+    padding:2px;
+}
+.nav-items a{
+    
+ font-size: 0.9rem;
+margin:0px 0px;
+}
+/* home */
+
+.primary{
+    text-align: center;
+    font-size:1.8rem;
+}
+.paragraph{
+    font-size:1rem;
+    text-align:center;
+    
+    
+}
+/* Projects */
+#projects .project a{
+    
+    font-size: 1rem;
+
+
+}
