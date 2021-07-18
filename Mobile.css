@@ -8,10 +8,10 @@
     margin: 1px 1px;
     padding:2px;
 }
-.nav-items a{
+#navbar ul li a{
     
- font-size: 0.9rem;
-margin:0px 0px;
+    font-size:0.8rem;
+
 }
 /* home */
 
