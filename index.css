@@ -47,6 +47,7 @@ title{
 #navbar ul{
 list-style: none;
 display:flex;
+
 }
 #navbar ul li{
     margin: 32px 1px;
