@@ -1,4 +1,15 @@
 /* Navbar section  */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
 #navbar{
     flex-direction:column;
     justify-content: center;
@@ -9,7 +20,6 @@
     padding:0px;
 }
 #navbar ul li a{
-    
     font-size:0.8rem;
 
 }
@@ -33,8 +43,5 @@
 }
 /* Projects */
 .common #projects .project a{
-    
     font-size: 1.5rem;
-
-
 }
